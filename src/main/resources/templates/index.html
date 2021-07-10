@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to The Home</title>
+</head>
+<body>
+<div>
+<h1 th:text="${banner}" ></h1>
+<form action="/portal/web-ui/addition" method="post">
+<button>Addition</button>
+</form>
+</div>
+</body>
+</html>

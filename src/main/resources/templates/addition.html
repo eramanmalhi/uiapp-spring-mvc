@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Addition Inputs</title>
+</head>
+<body>
+<div>
+<h1 th:text="${banner}" ></h1>
+<form action="/portal/web-ui/additionResult" method="post">
+<table>
+<tr><td>Number 1</td>
+<td><input name="num1" /></td></tr>
+<tr><td>Number 2</td>
+<td><input name="num2" /></td>
+</tr>
+</table>
+<button>ADD</button>
+</form>
+</div>
+</body>
+</html>
